@@ -412,12 +412,12 @@ td {
 /* ==|== primary styles =====================================================
    Author: Kahlil Lechelt
    ========================================================================== */
-/* line 5, ../../sass/partials/_primary-styles.scss */
+/* line 4, ../../sass/partials/_primary-styles.scss */
 .h5bpoc-main {
   width: 600px;
   margin: 0 auto;
 }
-/* line 8, ../../sass/partials/_primary-styles.scss */
+/* line 7, ../../sass/partials/_primary-styles.scss */
 .h5bpoc-main h1, .h5bpoc-main h3 {
   text-align: center;
 }

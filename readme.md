@@ -30,7 +30,16 @@ That's where H5BP on Crack comes in. It gives you a really good starting point t
 
 ## How to use H5BP on Crack
 
+Check out the project
 
+    git clone https://github.com/kahlil/h5bponcrack.git
+
+Move into the project folder and start grunt
+
+    cd h5bponcrack
+    grunt
+
+Hack away.
 
 ## License
 H5BP on Crack is released under the MIT license.

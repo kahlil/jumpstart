@@ -421,6 +421,39 @@ td {
 .h5bpoc-main h1, .h5bpoc-main h3 {
   text-align: center;
 }
+/* line 10, ../../sass/partials/_primary-styles.scss */
+.h5bpoc-main h4 {
+  margin-bottom: 0px;
+}
+
+/* line 16, ../../sass/partials/_primary-styles.scss */
+.h5bpoc-shoutbox legend {
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+/* line 19, ../../sass/partials/_primary-styles.scss */
+.h5bpoc-shoutbox textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+/* line 25, ../../sass/partials/_primary-styles.scss */
+.h5bpoc-shoutbox button {
+  font-family: "Georgia", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* line 30, ../../sass/partials/_primary-styles.scss */
+.h5bpoc-reactbox {
+  background: green;
+  color: #fff;
+  padding: 10px;
+}
 
 /* ==|== media queries ======================================================
    EXAMPLE Media Query for Responsive Design.

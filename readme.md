@@ -1,55 +1,37 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# H5BP on Crack
 
-HTML5 Boilerplate is a professional front-end template that helps you build fast, robust, adaptable, and future-proof websites. Spend more time developing and less time reinventing the wheel.
+JS Frameworks for single page apps like Backbone and Ember.js are all the rage right now and they are awesome... for single page apps.
 
-This project is the product of many years of iterative development and combined community knowledge. It does not impose a specific development philosophy or framework, so you're free to architect your code in the way that you want.
+But what if you are in charge of the frontend of a classic multi-page website that needs some awesome css and a bunch of jquery plugins and you want to have your basic setup neatly organized, easy to maintain, easily optimized for production and an architecture for the plugins to talk with eachother out of the box?
 
+That's where H5BP on Crack comes in. It gives you a really good starting point to be productive right away. IF you like to work with the same tools as I do.
 
-## Quick start
+## All the things:
 
-Clone the git repo - `git clone git://github.com/h5bp/html5-boilerplate.git` - or [download it](https://github.com/h5bp/html5-boilerplate/zipball/master)
+* HTML5 Boilerplate
+* Works with Grunt.js and SASS/COMPASS out of the box
+* A pre-configured gruntfile with tasks for development and for production for both CSS and JavaScript
+* grunt-compass
+* Basic H5BP CSS organized into SCSS partials
+* Plugins use Addy Osmani's basic plugin pattern
+* A better directory structure for your JavaScript libs and plugins
+* PubSub.js
+* JavaScript templating with Handlebars
+* Store.js
+* Testing with QUnit
 
+## Dependencies
 
-## Features
+* Node.js
+* Grunt.js
+* SASS
+* COMPASS
+* Phantom.js
 
-* HTML5 ready. Use the new elements with confidence.
-* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
-* Designed with progressive enhancement in mind.
-* CSS normalizations and common bug fixes.
-* IE-specific classes for easier cross-browser control.
-* A default print stylesheet, performance optimized.
-* Mobile browser optimizations.
-* Protection against any stray `console.log` causing JavaScript errors in IE6/7.
-* The latest jQuery via CDN, with a local fallback.
-* A custom Modernizr build for feature detection.
-* An optimized Google Analytics snippet.
-* Apache server caching, compression, and other configuration defaults for Grade-A performance.
-* Cross-domain Ajax and Flash.
-* "Delete-key friendly." Easy to strip out parts you don't need.
-* Extensive inline and accompanying documentation.
+## How to use H5BP on Crack
 
-
-## Contributing
-
-Anyone and everyone is welcome to [contribute](https://github.com/h5bp/html5-boilerplate/wiki/contribute). Hundreds of developers have helped make the HTML5 Boilerplate what it is today.
-
-
-## Project information
-
-* Source: http://github.com/h5bp/html5-boilerplate
-* Web: http://html5boilerplate.com
-* Docs: http://html5boilerplate.com/docs
-* Twitter: http://twitter.com/h5bp
 
 
 ## License
+H5BP on Crack is released under the MIT license.
 
-### Major components:
-
-* jQuery: MIT/GPL license
-* Modernizr: MIT/BSD license
-* Normalize.css: Public Domain
-
-### Everything else:
-
-The Unlicense (aka: public domain)

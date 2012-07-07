@@ -24,7 +24,7 @@
     // regularly referenced in your plugin).
 
     // Create the defaults once
-    var pluginName = 'defaultPluginName',
+    var pluginName = 'react',
         defaults = {
             propertyName: "value"
         };
@@ -55,10 +55,19 @@
             // and this.options
             // you can add more functions like the one below and
             // call them like so: this.yourOtherFunction(this.element, this.options).
+            var el = this.element;
+            var $el = $(this.element);
+
+            $.Topic( 'addedShout' ).subscribe( this.omg );
+            $.Topic( 'clearedAllShouts' ).subscribe( this.oh );
         },
 
-        yourOtherFunction: function(el, options) {
-            // some logic
+        omg: function(el, options) {
+            $('.h5bpoc-reactbox').text('Somebody is shouting.');
+        },
+
+        oh: function() {
+            $('.h5bpoc-reactbox').text('Oh! What just happened? All the things went away!');
         }
     };
 
@@ -71,6 +80,6 @@
                 new Plugin( this, options ));
             }
         });
-    }
+    };
 
 })( jQuery, window, document );

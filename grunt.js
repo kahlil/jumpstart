@@ -15,6 +15,7 @@ module.exports = function(grunt) {
                     'js/libs/pubsub.js',
                     'js/libs/store.js',
                     'js/libs/json.js',
+                    'js/libs/handlebars-1.0.0.beta.6.js',
                     'js/plugins/**/*.js'
                 ],
                 dest: 'js/plugins.js'

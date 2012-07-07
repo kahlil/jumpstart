@@ -1,0 +1,5 @@
+@mixin italicserif( $fontSize: 12px ) {
+    font-family: "Georgia", sans-serif;
+    font-style: italic;
+    font-size: $fontSize;
+}

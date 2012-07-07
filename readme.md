@@ -32,12 +32,16 @@ That's where H5BP on Crack comes in. It gives you a really good starting point t
 
 Check out the project
 
-    git clone https://github.com/kahlil/h5bponcrack.git
+```bash
+git clone https://github.com/kahlil/h5bponcrack.git
+```
 
 Move into the project folder and start grunt
 
-    cd h5bponcrack
-    grunt
+```bash
+cd h5bponcrack
+grunt
+```
 
 Hack away.
 

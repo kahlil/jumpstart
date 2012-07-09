@@ -36,10 +36,16 @@ Check out the project
 git clone https://github.com/kahlil/h5bponcrack.git
 ```
 
-Move into the project folder and start grunt
+Move into the project folder and install grunt-compass
 
 ```bash
 cd h5bponcrack
+npm install grunt-compass
+```
+
+Start grunt
+
+```bash
 grunt
 ```
 

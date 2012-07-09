@@ -1,0 +1,28 @@
+{
+  "name": "h5bponcrack",
+  "description": "html5boilerplate on crack",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kahlil/h5bponcrack",
+  "author": {
+    "name": "kahlil",
+    "email": "kahlil@kahlil.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@://github.com/kahlil/h5bponcrack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kahlil/h5bponcrack/issues"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "scripts": {
+    "test": "grunt qunit --verbose"
+  },
+  "dependencies": {
+    "grunt": ">=0.3.10",
+    "grunt-compass": ">=0.2.12",
+  },
+  "keywords": ["h5bp"]
+}

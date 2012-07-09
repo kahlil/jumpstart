@@ -36,7 +36,13 @@ Check out the project
 git clone https://github.com/kahlil/h5bponcrack.git
 ```
 
-Move into the project folder and install grunt-compass
+Move into the project folder and fetch your dependencies
+
+```bash
+npm install
+```
+
+Start grunt
 
 ```bash
 cd h5bponcrack
@@ -50,6 +56,24 @@ grunt
 ```
 
 Hack away.
+
+## static webserver
+
+h5bpoc comes with a build in static webserver.
+Just move to the project folder and run
+
+```bash
+node server.js
+```
+
+This will open a webserver on port 8080.
+Just type 'http://localost:8080' in your browsers address bar.
+
+You can specify a different port, by adding a snd. argument to your server call
+
+```bash
+node server.js 8040
+```
 
 ## License
 H5BP on Crack is released under the MIT license.

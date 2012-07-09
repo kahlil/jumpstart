@@ -39,13 +39,8 @@ git clone https://github.com/kahlil/h5bponcrack.git
 Move into the project folder and fetch your dependencies
 
 ```bash
-npm install
-```
-
-Start grunt
-
-```bash
 cd h5bponcrack
+npm install
 sudo npm install grunt-compass
 ```
 

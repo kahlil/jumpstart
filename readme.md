@@ -40,7 +40,7 @@ Move into the project folder and install grunt-compass
 
 ```bash
 cd h5bponcrack
-npm install grunt-compass
+sudo npm install grunt-compass
 ```
 
 Start grunt

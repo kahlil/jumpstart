@@ -57,9 +57,9 @@ grunt
 
 Hack away.
 
-## static webserver
+## Static Webserver
 
-h5bpoc comes with a build in static webserver.
+h5bpoc comes with a built-in static webserver.
 Just move to the project folder and run
 
 ```bash
@@ -67,9 +67,9 @@ node server.js
 ```
 
 This will open a webserver on port 8080.
-Just type 'http://localost:8080' in your browsers address bar.
+Just go to 'http://localost:8080' in your browser.
 
-You can specify a different port, by adding a snd. argument to your server call
+You can specify a different port, by adding it as an argument to your server call
 
 ```bash
 node server.js 8040

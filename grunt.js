@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 
     // Project configuration.
     grunt.initConfig({
+        pkg: '<json:package.json>',
         // Project metadata, used by some directives, helpers and tasks.
         meta: {},
         // Lists of files to be concatenated, used by the "concat" task.
@@ -22,7 +23,7 @@ module.exports = function(grunt) {
             },
             prod: {
                 src: [
-                    'js/plugins.js',
+                    '<config:concat.plugins.dest>',
                     'js/script.js'
                 ],
                 dest: 'js/prod.js'
@@ -31,7 +32,7 @@ module.exports = function(grunt) {
         // Lists of files to be minified with UglifyJS, used by the "min" task.
         min: {
             prod: {
-                src: 'js/prod.js',
+                src: '<config:concat.prod.dest>',
                 dest: 'js/script.min.js'
             }
         },

@@ -1,4 +1,4 @@
-# H5BP on Crack
+# H5BP On Crack
 
 JS Frameworks for single page apps like Backbone and Ember.js are all the rage right now and they are awesome... for single page apps.
 
@@ -6,7 +6,7 @@ But what if you are in charge of the frontend of a classic multi-page website th
 
 That's where H5BP on Crack comes in. It gives you a really good starting point to be productive right away. IF you like to work with the same tools as I do.
 
-## All the things:
+## All The Things:
 
 * HTML5 Boilerplate
 * Works with Grunt.js and SASS/COMPASS out of the box
@@ -28,7 +28,7 @@ That's where H5BP on Crack comes in. It gives you a really good starting point t
 * COMPASS
 * Phantom.js
 
-## How to use H5BP on Crack
+## How To Use H5BP On Crack
 
 Check out the project
 

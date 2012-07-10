@@ -2,7 +2,7 @@
 
 JS Frameworks for single page apps like Backbone and Ember.js are all the rage right now and they are awesome... for single page apps.
 
-But what if you are in charge of the frontend of a classic multi-page website that needs some awesome css and a bunch of jquery plugins and you want to have your basic setup neatly organized, easy to maintain, easily optimized for production and an architecture for the plugins to talk with eachother out of the box?
+But what if you are in charge of the frontend of a classic multi-page website that needs some awesome css and a bunch of jQuery plugins and you want to have your basic setup neatly organized, easy to maintain, easily optimized for production and an architecture for the plugins to talk with eachother out of the box?
 
 That's where H5BP on Crack comes in. It gives you a really good starting point to be productive right away. IF you like to work with the same tools as I do.
 

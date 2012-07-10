@@ -11,7 +11,7 @@ That's where H5BP on Crack comes in. It gives you a really good starting point t
 * HTML5 Boilerplate
 * Works with Grunt.js and SASS/COMPASS out of the box
 * A pre-configured gruntfile with tasks for development and for production for both CSS and JavaScript
-* grunt-compass
+* grunt-compass setup (No need to initialize a Compass project)
 * Basic H5BP CSS organized into SCSS partials
 * Plugins use Addy Osmani's basic plugin pattern
 * A better directory structure for your JavaScript libs and plugins

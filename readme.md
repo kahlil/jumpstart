@@ -33,13 +33,13 @@ That's where Jumpstart comes in. It gives you a really good starting point to be
 Check out the project
 
 ```bash
-git clone https://github.com/kahlil/h5bponcrack.git
+git clone https://github.com/kahlil/jumpstart.git
 ```
 
 Move into the project folder and fetch your dependencies
 
 ```bash
-cd h5bponcrack
+cd jumpstart
 npm install
 sudo npm install grunt-compass
 ```
@@ -54,7 +54,7 @@ Hack away.
 
 ## Static Webserver
 
-h5bpoc comes with a built-in static webserver.
+Jumpstart comes with a built-in static webserver.
 Just move to the project folder and run
 
 ```bash
@@ -71,5 +71,5 @@ node server.js 8040
 ```
 
 ## License
-H5BP on Crack is released under the MIT license.
+Jumpstart is released under the MIT license.
 

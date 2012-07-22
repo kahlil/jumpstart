@@ -2,5 +2,10 @@
 
 */
 
-$('.h5bpoc-shoutbox').shoutBox();
-$('.h5bpoc-reactbox').react();
+;(function( $, window, document, undefined ){
+    "use strict";
+
+    $('.h5bpoc-shoutbox').shoutBox();
+    $('.h5bpoc-reactbox').react();
+
+})( jQuery, window, document );

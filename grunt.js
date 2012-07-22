@@ -40,6 +40,43 @@ module.exports = function(grunt) {
         qunit: {
             all: ['js/test/**/*.html']
         },
+        lint: {
+            src: ['js/script.js' ],
+            grunt: ['grunt.js'],
+            tests: ['tests/**/*.js']
+        },
+        jshint: {
+            options: {
+                curly: true,
+                eqeqeq: true,
+                immed: false,
+                latedef: true,
+                newcap: true,
+                noarg: true,
+                sub: true,
+                undef: true,
+                boss: true,
+                eqnull: true,
+                browser: true
+            },
+            src: {
+                globals: {
+                    jQuery: true,
+                    Modernizr: true
+                }
+            },
+            grunt: {
+                options: {node: true},
+                globals: { module: true }
+            },
+            tests: {
+                options: { jquery: true },
+                globals: {
+                    jQuery: true,
+                    Modernizr: true
+                }
+            }
+        },
         compass: {
             dev: {
                 src: 'sass',
@@ -61,11 +98,20 @@ module.exports = function(grunt) {
         },
         // Configuration options for the "watch" task.
         watch: {
-            files: ['grunt.js', 'js/plugins/**/*.js', 'js/script.js', 'sass/**/*.scss'],
-            tasks: ['compass:dev', 'concat', 'min']
+            dev: {
+              files: ['grunt.js', 'js/plugins/**/*.js', 'js/script.js', 'sass/**/*.scss'],
+              tasks: ['compass:dev', 'lint']
+            },
+            prod: {
+              files: ['grunt.js', 'js/plugins/**/*.js', 'js/script.js', 'sass/**/*.scss'],
+              tasks: ['compass:prod', 'lint', 'concat', 'min']
+            }
         }
     });
 
+    grunt.registerTask('dev', 'watch:dev');
+    grunt.registerTask('prod', 'watch:prod');
+
     // Default task.
-    grunt.registerTask('default', 'watch');
+    grunt.registerTask('default', 'watch:dev');
 };

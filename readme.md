@@ -28,7 +28,7 @@ That's where Jumpstart comes in. It gives you a really good starting point to be
 * COMPASS
 * Phantom.js
 
-## How To Use H5BP On Crack
+## How To Use Jumpstart
 
 Check out the project
 

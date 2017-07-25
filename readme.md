@@ -1,5 +1,7 @@
 # Jumpstart
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kahlil/jumpstart.svg)](https://greenkeeper.io/)
+
 JS Frameworks for single page apps like Backbone and Ember.js are all the rage right now and they are awesome... for single page apps.
 
 But what if you are in charge of the frontend of a classic multi-page website that needs some awesome css and a bunch of jQuery plugins and you want to have your basic setup neatly organized, easy to maintain, easily optimized for production and an architecture for the plugins to talk with eachother out of the box?
